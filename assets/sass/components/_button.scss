@@ -1,0 +1,20 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 2rem;
+    transition: all 0.2s;
+    position: relative;
+    font-size: $default-font-size;
+    font-family: 'Poppins', sans-serif;
+    background-color: $tertiary-color;
+
+    //Change for the <button> element
+    border: none;
+    cursor: pointer;
+  }
+}

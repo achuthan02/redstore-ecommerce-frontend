@@ -1,0 +1,21 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+
+  .col-2 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .col-3 {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+  .col-4 {
+    flex-basis: 33.33333333%;
+    max-width: 33.33333333%;
+  }
+  .col-8 {
+    flex-basis: 66.66666667%;
+    max-width: 66.66666667%;
+  }
+}
