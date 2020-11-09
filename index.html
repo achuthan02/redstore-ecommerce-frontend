@@ -19,6 +19,7 @@
     <!-- Custom style sheet -->
     <link rel="stylesheet" href="/assets/css/main.css" />
   </head>
+
   <body>
     <!-- NAVIGATION -->
     <nav class="nav">
@@ -47,7 +48,7 @@
         <div class="col-8">
           <h1 class="primary-heading u-margin-bottom-medium">
             Give Your Workout <br />
-            A New Style!
+            A New <span id="typewriter">Style!</span>
           </h1>
           <p class="tertiary-heading u-margin-bottom-medium">
             Success isn't always about greatness. It's about consistency.
@@ -76,5 +77,19 @@
 
     <!-- FOOTER -->
     <footer></footer>
+
+    <!-- Script's -->
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/typewriter.js"></script>
+    <script>
+      var typewriter = new Typewriter('#typewriter', {
+        strings: ['Style', 'Look', 'Fashion'],
+        cursor: '!',
+        autoStart: true,
+        loop: true,
+        delay: 250,
+        deleteSpeed: 150,
+      });
+    </script>
   </body>
 </html>
