@@ -1,22 +1,27 @@
 .u-d-flex {
-  display: flex;
+  display: flex !important;
 }
 
 .u-justify-content-center {
-  justify-content: center;
+  justify-content: center !important;
 }
 
 .u-justify-content-sb {
-  justify-content: space-between;
+  justify-content: space-between !important;
 }
 
 .u-justify-content-sa {
-  justify-content: space-around;
+  justify-content: space-around !important;
 }
 
 .u-align-items-center {
-  align-items: center;
+  align-items: center !important;
 }
+
+.u-margin-bottom-smallest {
+  margin-bottom: 0.8rem !important;
+}
+
 .u-margin-bottom-small {
   margin-bottom: 1.5rem !important;
 }
